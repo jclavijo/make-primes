@@ -32,8 +32,10 @@
            ))
       :else (take prime_quantity odd_num_list)))
   ))
-(def prime_list (primes 10))
+(defn -main [& args]
+  (def prime_list (primes 10))
                                         ;)
-(pprint (for [x (cons 1 prime_list)]
+  (pprint (for [x (cons 1 prime_list)]
           [(map (partial * x) (cons 1 prime_list))]))
+  (System/exit 0))
 
