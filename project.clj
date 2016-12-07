@@ -8,6 +8,6 @@
              [lein-midje    "3.2"]
              [lein-midje-doc "0.0.24"]
              [cider/cider-nrepl "0.14.0"]]
-  :main ^:skip-aot gorilla-repl.core
+  :main ^:skip-aot make-primes.core
   :target-path "target/%s"
  )
