@@ -1,10 +1,10 @@
 # make-primes
 
-A Clojure library designed to ... well, that part is up to you.
+This program uses a sorted-set to create a list of prime numbers and then prints them.
 
 ## Usage
 
-FIXME
+Use lein to run core.clj
 
 ## License
 
